@@ -10,7 +10,15 @@
 
 @implementation PlantCell
 
-- (void) photosynthesize {
+- (instancetype)init {
+    if (self = [super init]) {
+        NSLog(@"A tough plant cell appeared!");
+    }
+    
+    return self;
+}
+
+- (void)photosynthesize {
     NSLog(@"Basking in the sun is so fun.");
 }
 
