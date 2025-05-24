@@ -18,6 +18,10 @@
     return self;
 }
 
+- (void)introduce {
+    NSLog(@"I'm a waxy new plant cell.");
+}
+
 - (void)photosynthesize {
     NSLog(@"Basking in the sun is so fun.");
 }

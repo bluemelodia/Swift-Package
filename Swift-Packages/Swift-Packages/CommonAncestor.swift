@@ -8,8 +8,8 @@
 import Foundation
 
 @objc @implementation extension CommonAncestor {
-    @objc dynamic override init() {
-        print("I am the parent of all life.")
+    override init() {
+        print("The ancestor of all cells appeared!")
         super.init()
     }
 
