@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		14302B5C2DE252B100C48F97 /* AlienAncestor in Frameworks */ = {isa = PBXBuildFile; productRef = 14302B5B2DE252B100C48F97 /* AlienAncestor */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		14302B0F2DE15D3B00C48F97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14302B5C2DE252B100C48F97 /* AlienAncestor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				14302B032DE15D3800C48F97 /* Swift-Packages */,
 				14302B112DE15D3B00C48F97 /* Swift-PackagesTests */,
 				14302B1B2DE15D3B00C48F97 /* Swift-PackagesUITests */,
+				14302B5A2DE252B100C48F97 /* Frameworks */,
 				14302B022DE15D3800C48F97 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				14302B182DE15D3B00C48F97 /* Swift-PackagesUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		14302B5A2DE252B100C48F97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = "Swift-Packages";
 			packageProductDependencies = (
+				14302B5B2DE252B100C48F97 /* AlienAncestor */,
 			);
 			productName = "Swift-Packages";
 			productReference = 14302B012DE15D3800C48F97 /* Swift-Packages.app */;
@@ -196,6 +210,9 @@
 			);
 			mainGroup = 14302AF82DE15D3800C48F97;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				14302B592DE2528C00C48F97 /* XCLocalSwiftPackageReference "../AlienAncestor" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 14302B022DE15D3800C48F97 /* Products */;
 			projectDirPath = "";
@@ -566,6 +583,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		14302B592DE2528C00C48F97 /* XCLocalSwiftPackageReference "../AlienAncestor" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../AlienAncestor;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14302B5B2DE252B100C48F97 /* AlienAncestor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14302B592DE2528C00C48F97 /* XCLocalSwiftPackageReference "../AlienAncestor" */;
+			productName = AlienAncestor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 14302AF92DE15D3800C48F97 /* Project object */;
 }

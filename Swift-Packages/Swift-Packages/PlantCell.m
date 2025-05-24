@@ -10,13 +10,13 @@
 
 @implementation PlantCell
 
-- (instancetype)init {
-    if (self = [super init]) {
-        NSLog(@"A tough plant cell appeared!");
-    }
-    
-    return self;
-}
+//- (instancetype)init {
+//    if (self = [super init]) {
+//        NSLog(@"A tough plant cell appeared!");
+//    }
+//    
+//    return self;
+//}
 
 - (void)introduce {
     NSLog(@"I'm a waxy new plant cell.");
