@@ -6,8 +6,8 @@
 //
 
 import SwiftUI
-import AlienAncestorObjc
 import AlienAncestor
+import AlienAncestorSwift
 
 struct ContentView: View {
     let commonAncestor = CommonAncestor()

@@ -1,6 +1,6 @@
 
 import Foundation
-import AlienAncestorObjc
+import AlienAncestor
 
 @objc @implementation extension AlienAncestor {
     override init() {
