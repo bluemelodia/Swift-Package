@@ -25,9 +25,22 @@
 		14302C1C2DE3DFF300C48F97 /* AlienSymbioteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlienSymbioteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		14302C452DE3E28000C48F97 /* Exceptions for "AlienSymbiote" folder in "AlienSymbiote" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				AlienSymbiote.h,
+			);
+			target = 14302C102DE3DFF300C48F97 /* AlienSymbiote */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		14302C132DE3DFF300C48F97 /* AlienSymbiote */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				14302C452DE3E28000C48F97 /* Exceptions for "AlienSymbiote" folder in "AlienSymbiote" target */,
+			);
 			path = AlienSymbiote;
 			sourceTree = "<group>";
 		};

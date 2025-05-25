@@ -5,6 +5,8 @@
 //  Created by Guac on 5/25/25.
 //
 
+#import <Foundation/Foundation.h>
+
 #ifndef AlienSymbiote_h
 #define AlienSymbiote_h
 
