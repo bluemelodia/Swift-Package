@@ -6,15 +6,14 @@
 //
 
 import SwiftUI
-import AlienAncestor
-import AlienAncestorSwift
+import AlienSymbiote
 
 struct ContentView: View {
     let commonAncestor = CommonAncestor()
     let plantCell = PlantCell()
     let animalCell = AnimalCell()
 
-    let alienAncestor = AlienAncestor()
+    let alien = AlienSymbiote()
 
     var body: some View {
         VStack {
@@ -25,6 +24,7 @@ struct ContentView: View {
                 commonAncestor.introduce()
                 plantCell.introduce()
                 animalCell.introduce()
+                alien.introduce()
             }
 
             Button("Show and Tell") {
