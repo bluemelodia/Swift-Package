@@ -1,0 +1,6 @@
+framework module AlienSymbiote {
+  umbrella header "AlienSymbiote.h"
+  export *
+
+  module * { export * }
+}
